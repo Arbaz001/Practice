@@ -15,6 +15,11 @@ int main(){
         }
     }
     cout<<sha<<endl;
+    
+    
+    //by using stl//
+    
+    
     string s="arbaz ali";
     transform(s.begin(),s.end(),s.begin(),::toupper);
     cout<<s<<endl;
